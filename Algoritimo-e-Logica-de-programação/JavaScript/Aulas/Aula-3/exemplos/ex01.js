@@ -1,0 +1,28 @@
+//exemplo
+dia=prompt("Insira o dia")
+if(dia=="domingo"){
+    console.log("zero");
+}
+else{
+    if(dia=="segunda"){
+        console.log("um");
+    }
+    else{
+        if(dia=="terça"){
+        console.log("dois");
+        }
+         else{
+            if(dia=="quarta"){
+            console.log("tres");
+        }
+         else{
+            if(dia=="quinta"){
+                console.log("quartro");
+            }
+            else{
+                console.log("resto");
+            }
+         }
+        }
+    }
+}

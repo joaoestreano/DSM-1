@@ -1,0 +1,21 @@
+{
+  "name": "aula2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "um": "node ./Exercicios/um",
+    "dois": "node ./Exercicios/dois",
+    "tres": "node ./Exercicios/tres",
+    "quatro": "node ./Exercicios/quatro",
+    "cinco": "node ./Exercicios/cinco",
+    "seis": "node ./Exercicios/seis",
+    "sete": "node ./Exercicios/sete",
+    "oito": "node ./Exercicios/oito",
+    "nove": "node ./Exercicios/nove",
+    "dez": "node ./Exercicios/dez"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

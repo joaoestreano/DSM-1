@@ -1,0 +1,20 @@
+{
+  "name": "treino5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "um": "node ./src/um",
+    "dois": "node ./src/dois",
+    "tres": "node ./src/tres",
+    "quatro": "node ./src/quatro",
+    "cinco": "node ./src/cinco",
+    "seis": "node ./src/seis",
+    "sete1": "node ./src/sete1",
+    "sete": "node ./src/sete",
+    "oito": "node ./src/oito"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

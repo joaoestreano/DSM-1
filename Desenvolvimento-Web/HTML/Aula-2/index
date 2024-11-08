@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercício 1</title>
+  </head>
+  <body>
+    <form>
+        <!--Exercicio 1/2-->
+        <div>
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome">
+        </div>
+        <br>
+        <div>
+          <label for="idade">idade:</label>
+          <input type="number" id="idade" name="idade" min="18" max="30">
+        </div>
+        <br>
+        <!--Exercicio 3/4-->
+        <form method="POST">
+            <label for="dia">Dia:</label>
+            <select name="dia">
+               <option value="domingo">Domingo</option>
+               <option value="segunda-feira">Segunda-feira</option>
+               <option value="terça-feira">Terça-feira</option>
+               <option value="quarta-feira">Quarta-feira</option>
+               <option value="quinta-feira">Quinta-feira</option>
+               <option value="sexta-feira">Sexta-feira</option>
+               <option value="sabado">Sábado</option>
+               <input type="submit" value="Enviar">
+            </select>
+            <br>
+            <!--Exercicio 5-->
+            <fieldset>
+                <legend>Dia:</legend>
+                <input type="radio" name="dia" id="um" value="domingo">
+                <label for="um">Domingo</label>
+                <input type="radio" name="dia" id="dois" value="segunda-feira">
+                <label for="dois">Segunda-feira</label>
+                <input type="radio" name="dia" id="tres" value="terça-feira">
+                <label for="tres">Terça-feira</label>
+                <input type="radio" name="dia" id="quatro" value="quarta-feira">
+                <label for="tres">Quarta-feira</label>
+                <input type="radio" name="dia" id="cinco" value="quinta-feira">
+                <label for="tres">Quinta-feira</label>
+                <input type="radio" name="dia" id="seis" value="sexta-feira">
+                <label for="tres">Sexta-feira</label>
+                <input type="radio" name="dia" id="sete" value="sabado">
+                <label for="tres">Sábado</label>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <br>
+        <!--Exercicio 6-->
+        <fieldset>
+            <legend>Dia:</legend>
+            <input type="checkbox" name="dia" id="um" value="domingo">
+            <label for="um">Domingo</label>
+            <input type="checkbox" name="dia" id="dois" value="segunda-feira">
+            <label for="dois">Segunda-feira</label>
+            <input type="checkbox" name="dia" id="tres" value="terça-feira">
+            <label for="tres">Terça-feira</label>
+            <input type="checkbox" name="dia" id="quatro" value="quarta-feira">
+            <label for="tres">Quarta-feira</label>
+            <input type="checkbox" name="dia" id="cinco" value="quinta-feira">
+            <label for="tres">Quinta-feira</label>
+            <input type="checkbox" name="dia" id="seis" value="sexta-feira">
+            <label for="tres">Sexta-feira</label>
+            <input type="checkbox" name="dia" id="sete" value="sabado">
+            <label for="tres">Sábado</label>
+    </fieldset>
+    <input type="submit" value="Enviar">
+    <br>
+    <!--Exercicio 7-->
+    <form>
+        <fieldset>
+            <legend>Dia:</legend>
+            <div class="checkbox-group">
+                <input type="checkbox" name="dia" id="um" value="domingo">
+                <label for="um">Domingo</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="dia" id="dois" value="segunda-feira">
+                <label for="dois">Segunda-feira</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="dia" id="tres" value="terça-feira">
+                <label for="tres">Terça-feira</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="dia" id="quatro" value="quarta-feira">
+                <label for="quatro">Quarta-feira</label>
+            </div>
+            <div class="checkbox-group">
+                <input type="checkbox" name="dia" id="cinco" value="quinta-feira">
+                <label for="cinco">Quinta-feira</label>
+            </div>    
+            <div class="checkbox-group">
+                <input type="checkbox" name="dia" id="seis" value="sexta-feira">
+                <label for="seis">Sexta-feira</label>
+            </div>           
+            <div class="checkbox-group">
+                <input type="checkbox" name="dia" id="sete" value="sabado">
+                <label for="sete">Sábado</label>
+            </div>
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <!--Exercicio 8-->
+    <form>
+        <fieldset>
+            <legend>Formulário de Comentários</legend>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+                <label for="comentarios">Comentários:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" cols="50" required></textarea>
+            </div>           
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <!--Exercicio 9-->
+    <form>
+        <fieldset>
+            <legend>Formulário de Comentários</legend>
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+                <label for="comentarios">Comentários:</label>
+                <textarea id="comentarios" name="comentarios" rows="4" placeholder="Seus comentários" required></textarea>
+            </div> 
+        </fieldset>
+        <input type="submit" value="Enviar">
+    </form>
+    <br>
+    <!--Exercicio 10-->
+    <form>
+        <div class="form-group">
+            <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+        </div>
+        <div class="form-group">
+            <input type="number" id="idade" name="idade" placeholder="Sua idade" required>
+        </div>
+        <div class="form-group">
+            <input type="password" id="senha" name="senha" placeholder="Sua senha" required>
+        </div>
+        <div class="form-group">
+            <label for="cor">Escolha uma cor:</label>
+            <input type="color" id="cor" name="cor">
+        </div>
+        <input type="submit" value="Enviar">
+    </form>
+  </body>
+</html>

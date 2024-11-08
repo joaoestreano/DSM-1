@@ -1,0 +1,5 @@
+//Exercício 1: No trecho de código a seguir tem-se que a variável entrada possui um valor texto. Desta forma, a instrução console.log exibirá o texto 1515 como resultado. Complete o código para que o resultado seja o número inteiro 30.
+let entrada = "15";
+entrada = Number(entrada);
+let soma = entrada + entrada; 
+console.log(soma);

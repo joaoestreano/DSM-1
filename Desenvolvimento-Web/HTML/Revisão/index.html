@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão final</title>
+    <script src="script.js" defer></script>
+    <style>
+        /* Estilo para a lista não ordenada */
+        #lista {
+            list-style-type: none; /* Remove os marcadores */
+            padding: 0;
+            display: flex; /* Faz os itens da lista ficarem em linha */
+            gap: 10px; /* Espaçamento entre os itens */
+        }
+
+        /* Estilo para os itens da lista */
+        #lista li {
+            display: inline; /* Certifica-se de que cada item está em linha */
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastre seus animais:</h1>
+    <form id="CadAnimais">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="classe">ordem:</label>
+        <input type="text" id="ordem" name="ordem" required><br><br>
+
+        <label for="classe">Classe:</label>
+        <select id="classe" name="classe" required>
+            <option value="mamifero">Mamifero</option>
+            <option value="reptil">Reptíl</option>
+            <option value="anfibio">Anfibio</option>
+            <option value="ave">Ave</option>
+            <option value="peixe">Peixe</option>
+        </select>
+        <input type="submit" value="Cadastrar">
+    </form>
+    
+    <h2>Informações cadastradas:</h2>
+    <ul id="lista"></ul>
+</body>
+</html>

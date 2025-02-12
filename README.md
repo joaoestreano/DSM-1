@@ -4,7 +4,7 @@ Bem-vindo ao repositório das atividades do primeiro semestre do curso de Desenv
 
 ## Objetivo
 
-O objetivo deste repositório é compartilhar as atividades realizadas ao longo do curso, abordando tópicos como:
+O objetivo deste repositório é compartilhar as atividades realizadas ao longo do curso, as materias desde semestre são::
 
 - Fundamentos de programação
 - Modelagem de Banco de Dados
@@ -16,7 +16,7 @@ Essas atividades visam proporcionar uma base sólida para a continuidade do apre
 
 ## Estrutura do Repositório
 
-Cada atividade está organizada em pastas e contém os arquivos necessários para a execução e entendimento dos conceitos trabalhados. As pastas estão nomeadas de acordo com o tema de cada atividade, e os arquivos de código estão prontos para serem executados em ambientes específicos.
+Cada atividade está organizada em pastas e contém os arquivos necessários para a execução e entendimento dos conceitos trabalhados. As pastas estão nomeadas de acordo com o tema de cada atividade.
 
 ## Contribuições
 
